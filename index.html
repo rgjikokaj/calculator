@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+
+<form name= 'calc'>
+<!-- set placeholder to hold input and a result after calculation -->
+<input type='text' name='display' placeholder="0">
+
+<!-- create the first row for the user to click on as input  -->
+<br> <br>
+<input type="button" value= "7" onclick="input(this)">
+<input type="button" value= "8" onclick="input(this)">
+<input type="button" value="9" onclick="input(this)">
+<input type= "button" value="+" onclick="input(this)"style = "background-color: orange">
+<br> <br>
+<!-- create the second row for the user to click on as input  -->
+<input type= "button" value ="4" onclick="input(this)">
+<input type = "button" value="5" onclick="input(this)">
+<input type = "button" value ="6" onclick="input(this)">
+<input type="button" value="-" onclick="input(this)" style = "background-color: orange">
+<br> <br>
+<!-- create the third row for the user to click on as input  -->
+<input type="button" value="1"onclick="input(this)">
+<input type="button" value="2"onclick="input(this)">
+<input type="button" value="3" onclick="input(this)">
+<input type="button" value="*"onclick="input(this)"style = "background-color: orange">
+<br> <br>
+<!-- create the fourth row for the user to click on as input  -->
+<input type="button" value="0"onclick="input(this)">
+<input type="button" value="."onclick="input(this)">
+<input type="button" value= "C" onclick="clearDisplay()">
+<input type="button" value= "/" onclick="input(this)"style = "background-color: orange">
+<br> <br>
+<!-- create the fifth row for the user to click on as input  -->
+<input type="button" value=",">
+<input type="button" value="AVG" style="width: 90px" onclick="Average">
+<input type="button" value="=" style="width: 95px" onclick="enter()">
+<br> <br>
+
+
+</form>
+
+    <script src="script.js"></script>
+  </body>
+</html>

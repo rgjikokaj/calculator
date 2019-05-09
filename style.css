@@ -1,0 +1,41 @@
+html, body{
+  height:100%;
+}
+
+body{
+  background-image: url(https://previews.123rf.com/images/urfingus/urfingus1701/urfingus170100019/69367324-bright-empty-classroom-for-lessons-and-training-3d-illustration-.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+form{
+  background-image: url(https://img.purch.com/w/660/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzEwMy83NDkvb3JpZ2luYWwvQWxpY2UtaW4tV29uZGVybGFuZC5qcGc=);
+  width: 260px;
+  background-color: aquamarine;
+  border-radius:12px;
+  padding:10px;
+  margin: 0 auto;
+
+
+}
+
+input[type="text"]{
+  width: 250px;
+  height: 60px;
+  text-align:right;
+  font-size:40px;
+  border-radius:8px;
+  margin: 3px;
+ font-family: Times;
+ font-weight: bold;
+ text-shadow: 3px 3px 5px #222;
+
+}
+input[type="button"]{
+  width: 60px;
+  height:60px;
+  font-size:30px;
+  border-radius:8px;
+  margin:1px;
+  
+}
